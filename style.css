@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,500;0,600;1,400;1,500&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap');
+* {
+    margin: 0;
+    padding: ;
+}
+body {
+    font-family: Exo, sans-serif;
+    background-color: aliceblue;
+    color: #444;
+}
+.card-wrapper {
+    width: 400px;
+    background-color: white;
+    margin: 100px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 25px 10px rgba(0, 0, 0,0.2);
+}
+.card-image {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+
+} 
+.card-image img {
+    width: 400px;
+}
+.card-image:hover img {
+    filter: grayscale(1);
+}
+#imdb-rating {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 174, 214);
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 0 0 10px 0;
+
+}
+#rating {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: chocolate;
+    color: white;
+    border-radius: 0 0 10px 0;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.card-details h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+
+}
+
+.card-details p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.card-details p:nth-child(2) {
+    color: orangered;
+}
+.card-details a {
+    text-decoration: none;
+    background-color: rgb(155, 155, 203);
+    color: rgb(5, 108, 131);
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    padding: 3px 0;
+    margin-bottom: 30px;
+    transition: 0.2s;
+}
+.card-details a:hover {
+    background-color: rgba(234, 234, 241, 0.8);
+    letter-spacing: 8px;
+}
+.card-details a:active {
+    background-color: rgb(155, 155, 203,0.9);
+
+}
+.fa-youtube {
+    margin-right: 10px;
+}
